@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- 通过常量加载资源文件 -->
+	<constant name="struts.custom.i18n.resources" value="cn.itcast.config.msg"></constant>
+
+	<package name="user" extends="json-default">  <!--需要将struts-default改为json-default-->
+		<action name="AddSpace" class="cn.zy.basic.action.AddSpaceAction" method="servlet">
+			<result type="json"></result> <!--返回值类型设置为json,不设置返回页面-->    
+			
+		</action>
+		<action name="Cancel" class="cn.zy.basic.action.CancelAction" method="servlet" >
+			<result type="json"></result>
+		</action>
+		<action name="Change" class="cn.zy.basic.action.ChangeAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="ChangeFlag" class="cn.zy.basic.action.ChangeFlagAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="ChangeHDate" class="cn.zy.basic.action.ChangeHDateAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="Charge" class="cn.zy.basic.action.ChargeAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="FindAllDay" class="cn.zy.basic.action.FindAllDayAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="findBluetooth" class="cn.zy.basic.action.findBluetoothAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="FindTime" class="cn.zy.basic.action.FindTimeAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="findTimeLength" class="cn.zy.basic.action.findTimeLengthAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="FindWallet" class="cn.zy.basic.action.FindWalletAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="History" class="cn.zy.basic.action.HistoryAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="Login" class="cn.zy.basic.action.LoginAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="Logintel" class="cn.zy.basic.action.LogintelAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="MyHistory" class="cn.zy.basic.action.MyHistoryAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="MySpace" class="cn.zy.basic.action.MySpaceAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		
+		<action name="OverSomething" class="cn.zy.basic.action.OverSomethingAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="Register" class="cn.zy.basic.action.RegisterAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="Repair" class="cn.zy.basic.action.RepairAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="RoadWantParking" class="cn.zy.basic.action.RoadWantParkingAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="SetTime" class="cn.zy.basic.action.SetTimeAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="Spaces" class="cn.zy.basic.action.SpaceAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="SpaceFlag" class="cn.zy.basic.action.SpaceFlagAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="WantParking" class="cn.zy.basic.action.WantParkingAction" method="servlet">
+			<result type="json"></result>
+		</action>
+		<action name="FindSpaceIsused" class="cn.zy.basic.action.FindSpaceIsusedAction" method="servlet">
+			<result type="json"></result>
+		</action>
+	
+		
+	</package>
+</struts>

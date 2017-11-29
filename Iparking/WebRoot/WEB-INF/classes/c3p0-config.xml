@@ -1,0 +1,15 @@
+<c3p0-config>
+  <default-config>
+     <property name="driverClass">com.mysql.jdbc.Driver</property> 
+     <property name="jdbcUrl">jdbc:mysql:///db_iparking?useUnicode=true&amp;characterEncoding=UTF8</property> 
+     <property name="user">root</property> 
+     <property name="password">root</property> 
+      <!--初始化时获取5个连接，取值应在minPoolSize与maxPoolSize之间。Default: 3 -->    
+     <property name="initialPoolSize">5</property> 
+      <!--连接池中保留的最大连接数。Default: 15 -->    
+     <property name="maxPoolSize">15</property> 
+
+  </default-config>
+
+
+</c3p0-config>

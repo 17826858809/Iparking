@@ -1,0 +1,116 @@
+body {
+	background-color: #F3F9FD;
+	color: #004779;
+	font-family: 宋体;
+	font-size: 12px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 0;
+}
+#main{
+	width: 100%;
+	background-color: #F3F9FD;
+}
+#top{
+	background-color: #91C0E3;
+	height:28px;
+	padding-top: 11px;
+	padding-left: 10px;
+	border-bottom-color: #FFF;
+}
+#stop{
+	background: url("img/title_bg.gif");
+    float: left;
+    font-family: 宋体;
+    font-size: 15px;
+    font-weight: bold;
+    height: 18px;
+    padding-left: 3px;
+    padding-right: 30px;
+	padding-top: 10px;
+	color: #005790;
+}
+#stop2{
+	background: url("img/title_bg_end.gif");
+	float: left;
+	height: 28px;
+	width: 38px;
+	
+}
+#white{
+	background-color: #FFF;
+	width: 100%;
+	height: 10px;
+}
+#search{
+	background-image: url(img/QueryArea_bg.png);
+	padding: 1px;
+	margin: 3px;
+	width: 100%;
+	height: 25px;
+	border: 1px solid #ABD8F9;
+}
+
+a{
+	font-size: 12px;
+	color: #005791;
+    text-decoration: none;
+}
+#table{
+    background: url("img/inputPageHeadBg.gif");
+    border-top: 1px solid #FFFFFF;
+    width: 100%;
+}
+#real{
+	width:100%;
+}
+#mainTable{
+	border: medium none;
+    color: #004779;
+    font-size: 12px;
+    width: 100%;
+}
+#TableTitle {
+height: 25px;
+}
+#TableTitle td {
+	border-left: 1px solid #D2D2D2;
+	border-right: 1px solid #FFFFFF;
+	border-top: 1px solid #D2D2D2;
+	height: 25px;
+	background-image: url("img/TableTitle_bg.png");
+	background-repeat: repeat-x;
+}
+#TableData tr{
+ background-color: #FFFFFF;
+    height: 22px;
+    vertical-align: bottom;
+}
+#TableData tr td {
+    border-top: 1px solid #D2D2D2;
+    height: 24px;
+    padding: 3px 3px 3px 5px;
+    vertical-align: middle;
+}
+#add {
+	border-bottom: 2px solid #A4CDEC;
+	border-top: 2px solid #A4CDEC;
+	height: 24px;
+	width: 100%;
+	padding-top: 4px;
+	background-image:url(img/TableTail_bg.png);
+	background-repeat: repeat-x;
+}
+.FunctionButton{
+	background-image:url(img/button_bg.png);
+	background-repeat: repeat-x;
+	float: left;
+	height: 16px;
+	font-size: 12px;
+	border: 1px solid #84A5C6;
+	margin: 0;
+	margin-left: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top:3px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>left</title>
+</head>
+<style type="text/css">
+body{
+	background-color: #D8EDFC;
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style-type:none;
+	color: #005790;
+    font-weight: bold;
+	margin:0;
+	padding:0;
+}
+#no1 #menu{
+    height: 22px;
+    padding-left: 20px;
+    padding-top: 5px;
+    border-top: 1px solid #EFF6FB;
+    width: 135px;
+	margin: 0 auto;
+	font-size: 13px;
+	background-color: #4891c0;
+	color: #F1F9FE;
+}
+#no2{
+	background-color: #D8EBF7;
+}
+.no2_list{
+    font-weight: normal;
+	font-size: 13px;
+	border-top: 1px solid #EFF6FB;
+	height: 18px;
+	padding-left: 43px;
+	padding-top: 5px;
+	margin: 0 auto;
+	width: 112px;
+	background-image:url(style/images/img/menu_arrow_single.gif);
+	background-color: #8EC4E9;
+	background-repeat: no-repeat;
+	background-position: 29px center;
+}
+a{
+	color: #005790;
+	text-decoration: none;
+}
+</style>
+<body>
+	<ul id="no1">
+    	<li>
+        	<div id="menu">
+            	用户信息
+           </div>
+            <ul id="no2">
+            	<li class="no2_list">
+                <a target="right" href="Web_AllUserServlet">用户基本信息</a></li>
+                <li class="no2_list">
+                <a target="right" href="Web_AllHistoryServlet">用户历史管理</a></li>
+                <li class="no2_list" >
+                <a target="right" href="Web_WalletServlet">用户钱包管理</a></li>
+                
+            </ul>
+        </li>
+        <li>
+        	<div id="menu">
+        	 	车位信息
+           	</div>
+            <ul id="no2">
+            	<li class="no2_list">
+                <a target="right" href="Web_SpaceServlet">车位信息管理</a></li>
+                <li class="no2_list">
+                <a target="right" href="Web_MMServlet">车位租用密码管理</a></li>
+                <li class="no2_list" >
+                <a target="right" href="Web_TimeServlet">车位可用时间管理</a></li>
+                <li class="no2_list" >
+                <a target="right" href="Web_StateServlet">车位状态管理</a></li>
+                
+                
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
